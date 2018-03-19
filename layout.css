@@ -18,7 +18,7 @@ body {
 	-ms-transition: top 0.3s ease-in;
 	transition: top 0.3s ease-in;
 
-	background-color: #222222;
+	background-color: #2a3034 !important;
 	background: rgba(0,0,0,0.7);
 	/*
 	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(rgba(0,0,0,0.6)), to(rgba(0, 0, 0, 0)));
