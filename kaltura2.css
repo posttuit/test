@@ -40,7 +40,7 @@ body {
 
 /* PLAYER */
 .controlBarContainer .scrubber .whatched {
-	height: 60%;
+	height: 60% !important;
 }
 
 .controlBarContainer .scrubber .buffered {
