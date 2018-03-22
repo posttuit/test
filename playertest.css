@@ -39,29 +39,29 @@ body {
 }
 
 /* PLAYER */
-.scrubber .whatched {
+.controlBarContainer .scrubber .whatched {
 	height: 60%;
 }
 
-.scrubber .buffered {
+.controlBarContainer .scrubber .buffered {
 	height: 60;
 }
 
-.scrubber {
+.controlBarContainer .scrubber {
 	height: 0.2 em;
 }
 
-.controlsContainer {
+.controlBarContainer .controlsContainer {
 	height: 3 em;
 }
 
-.scrubber .playhead {
+.controlBarContainer .scrubber .playhead {
 	top: px;
 	width: 10 px;
 	height: 10 px;
 }
 
-.btn {
+.controlBarContainer .btn {
 	font size: 0.8 em;
 }
 	
