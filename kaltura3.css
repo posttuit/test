@@ -68,6 +68,6 @@ body {
 
 /* SUBTITLES */
 .captionsOverlay .track {opacity:1!important;}
-.captionsOverlay .ttmlStyled {font-family: Arial, Helvetica, sans-serif !important;
+.captionsOverlay .ttmlStyled {font-family: PxGrotesk, sans-serif !important;
 	text-shadow: rgb(0,0,0) 0px 0px 20px, rgb(0,0,0) 0 0 5px, rgb(0,0,0) 0 0 4px, rgb(0,0,0) 0 0 4px !important;
 }
