@@ -69,14 +69,14 @@
 }
 
 body {
-    font-family: "PxGrotesk";
+    font-family: 'PxGrotesk' !important;
     background: #2a3034;
     color: #f1f0eb;
     overflow: hidden;
 }
 
 icon {
-    font-family: 'Material Icons';
+    font-family: 'Material Icons' !important;
     speak: none;
     font-style: normal;
     font-weight: normal;
