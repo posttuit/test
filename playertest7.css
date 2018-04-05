@@ -35,12 +35,12 @@
   font-family: 'Material Icons';
   font-style: normal;
   font-weight: 400;
-  src: url(https://example.com/MaterialIcons-Regular.eot); /* For IE6-8 */
+  src: url(https://cdn.rawgit.com/posttuit/test/master/MaterialIcons-Regular.eot); /* For IE6-8 */
   src: local('Material Icons'),
     local('MaterialIcons-Regular'),
-    url(https://example.com/MaterialIcons-Regular.woff2) format('woff2'),
-    url(https://example.com/MaterialIcons-Regular.woff) format('woff'),
-    url(https://example.com/MaterialIcons-Regular.ttf) format('truetype');
+    url(https://cdn.rawgit.com/posttuit/test/master/MaterialIcons-Regular.woff2) format('woff2'),
+    url(https://cdn.rawgit.com/posttuit/test/master/MaterialIcons-Regular.woff) format('woff'),
+    url(https://cdn.rawgit.com/posttuit/test/master/MaterialIcons-Regular.ttf) format('truetype');
 }
 
 .material-icons {
@@ -102,12 +102,6 @@ icon {
 
 .controlBarContainer .controlsContainer {
 	height: 3 em;
-}
-
-.controlBarContainer .scrubber .playhead {
-	top: px;
-	width: 10 px;
-	height: 10 px;
 }
 
 .controlBarContainer .btn {
@@ -279,3 +273,29 @@ icon {
 .captionsOverlay .ttmlStyled {font-family: PxGrotesk !important;
 	text-shadow: rgb(0,0,0) 0px 0px 20px, rgb(0,0,0) 0 0 5px, rgb(0,0,0) 0 0 4px, rgb(0,0,0) 0 0 4px !important;
 }
+
+/* InfoScreen */
+
+.screen.infoScreen{
+    font-family: 'PxGrotesk';
+}
+
+.fullscreen .infoScreen .title{
+    font-size: 4.2em;
+}
+
+.infoScreen .description {
+    font-size: 1em;
+    margin-top: 1.5em;
+}
+
+
+.fullscreen .infoScreen .title{
+    font-size: 4.2em;
+}
+
+.fullscreen .infoScreen .description {
+    font-size: 2em;
+    margin-top: 3em;
+}
+
