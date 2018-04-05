@@ -63,6 +63,18 @@ body {
     overflow: hidden;
 }
 
+icon {
+    font-family: 'material icons';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
 /* PLAYER */
 .controlBarContainer .scrubber .whatched {
 	height: 60% !important;
