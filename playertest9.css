@@ -277,12 +277,12 @@ icon {
 /* InfoScreen */
 
 .screen.infoScreen{
-    font-family: 'PxGrotesk';
+    font-family: 'PxGrotesk' !important;
 }
 
 .infoScreen .title{
-    font-size: 4em;
-    color: #f95741;
+    font-size: 4em !important;
+    color: #f95741 !important;
 }
 
 .infoScreen .description {
