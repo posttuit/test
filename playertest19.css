@@ -79,7 +79,19 @@ icon {
 }
 
 .controlBarContainer .scrubber .whatched {
-	height: 60% !important;
+    	height: 60% !important;
+	border-left-width: 20px !important;
+    	padding-left: 0px !important;
+    	width: 400px !important;
+ 	padding-right: 0px !important;
+   	margin-left: 20px !important;
+   	margin-right: 60px !important;
+    	left: 60px !important;
+    	top: -30 !important;
+    	top: - 30 !important;
+    	top: 0px;
+    	margin-bottom: 30px !important;
+    	right: -100 !important;
 }
 
 .playPauseBtn {
