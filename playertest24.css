@@ -69,9 +69,6 @@ icon {
 	bottom: 0 !important;
 	width: 100% !important;
 	height: 64px !important;
-    	left: 20px !important;
-	right: 60px !important;
-    	top: -30px !important;
 }
 
 .mobile .controlBarContainer {
@@ -82,16 +79,17 @@ icon {
 }
 
 .playPauseBtn {
-    	margin-left: 16px !important;
-    	margin-right: 12px !important;
+    	left: 16px !important;
+    	right: 12px !important;
 }
 
 .scrubber {
     	position: relative;
 	width: 400px !important;
    	height: 10px !important;
-	margin-left: 20px !important;
-    	margin-right: 60px !imoprtant;
+	left: 20px !important;
+	right: 60px !important;
+    	top: -30px !important;
     	cursor: pointer;
     	background-color: #686868;
     	background: rgba(104,104,104,0.6);
@@ -185,8 +183,8 @@ icon {
 }
 
 .volumeControl .sliderContainer {
-	margin-top: -180px !important;
-	margin-left: 10px !important; 
+	top: -180px !important;
+	left: 10px !important; 
 	width: 36px !important;
 	display: none !important;
 	background: rgba(255,255,255,0.9);
