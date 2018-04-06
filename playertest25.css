@@ -79,8 +79,10 @@ icon {
 }
 
 .playPauseBtn {
-    	left: 16px !important;
+    	position: absolute !important;
+	left: 16px !important;
     	right: 12px !important;
+	opacity: 0 !important;
 }
 
 .scrubber {
@@ -183,6 +185,7 @@ icon {
 }
 
 .volumeControl .sliderContainer {
+	position: absolute !important;
 	top: -180px !important;
 	left: 10px !important; 
 	width: 36px !important;
