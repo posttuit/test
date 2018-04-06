@@ -87,7 +87,7 @@ icon {
 
 .scrubber {
     	position: relative;
-	width: 400px !important;
+	width: 600px !important;
    	height: 10px !important;
 	left: 20px !important;
 	right: 60px !important;
@@ -182,6 +182,12 @@ icon {
     background: rgba(0,0,0,0.0) !important;
     height: 2.3em;
     padding-right: 5px;
+}
+
+.volumeControl {
+    	position: absolute;
+    	height: 50%;
+    	left: 900px;
 }
 
 .volumeControl .sliderContainer {
