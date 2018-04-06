@@ -193,6 +193,23 @@ icon {
 	position: absolute;
 }
 
+.largePlayBtn {
+	cursor: pointer;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	font-size: 30px;
+	margin: -35px 0 0 -35px;
+	text-decoration: none;
+	width: 44px;
+	height: 50px;
+	border-radius: 35px;
+	padding-left: 26px;
+	padding-top: 20px;
+	background-color: #f95741 !important;
+	color:#f1f0eb !important;
+}
+
 /* Subtitles */
 .captionsOverlay .track {opacity:1 !important;}
 .captionsOverlay .ttmlStyled {font-family: 'PxGrotesk' !important;
