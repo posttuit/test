@@ -254,6 +254,19 @@ icon {
     left: 40px !important;
     top: 50px !important;
 }
+	
+.timers comp currentTimeLabel display-high {
+	position: relative !important;
+    	left: 40px !important;
+    	top: 50px !important;	
+}
+	
+	
+.timers comp durationLabel display-medium {
+	position: relative !important;
+	left: 40px !important;
+    	top: 50px !important;	
+}
 
 /* Subtitles */
 .captionsOverlay .track {opacity:1 !important;}
