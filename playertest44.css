@@ -215,7 +215,7 @@ icon {
     	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=85)";
     	filter: alpha(opacity=85);
     	opacity: 1 !important;
-    	background: -webkit-linear-gradient(top,#f95741,#f95741)) !important;
+    	background: -webkit-linear-gradient(top,#f95741,#f95741) !important;
 	height: 12px !important;
 }
 
