@@ -69,6 +69,7 @@ icon {
 	bottom: 0 !important;
 	width: 100% !important;
 	height: 86px !important;
+	border-top: 0px solid rgba(170,168,168,0.5) !important;
 }
 
 .mobile .controlBarContainer {
@@ -211,10 +212,18 @@ icon {
 }
 
 .volumeControl .ui-slider-horizontal .ui-slider-range-min {
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=85)";
-    filter: alpha(opacity=85);
-    opacity: 1 !important;
-    background: -webkit-linear-gradient(top,#f95741,#f95741) !important;
+    	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=85)";
+    	filter: alpha(opacity=85);
+    	opacity: 1 !important;
+    	background: -webkit-linear-gradient(top,#f95741,#f95741) !important;
+	height: 12px !important;
+}
+
+.volumeControl .ui-slider-horizontal.slider {
+      height: 12px !important;
+
+.slider ui-slider ui-corner-all ui-slider-horizontal ui-widget ui-widget-content {
+	    background-color: #f1f0eb !important;
 }
 
 .largePlayBtn {
@@ -237,7 +246,7 @@ icon {
 .btn {
     	height: 110% !important;
 	width: 40px !important;
-	font-size: 14px !important;
+	font-size: 18px !important;
 }
 
 .timers {
