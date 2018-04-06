@@ -279,7 +279,7 @@ icon {
     	top: 50px !important;	
 }
 	
-.timers .comp durationLabel .display-medium .durationLabel {
+.timers .comp .durationLabel .display-medium .durationLabel {
 	position: relative !important;
 	left: 700px !important;
     	top: 50px !important;	
