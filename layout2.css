@@ -95,7 +95,7 @@ body {
     left: 30% !important;
 }
 .sideBarContainerReminder.right{
-    right: -30%;
+    right: -30% !important;
     -webkit-transition: right 0.3s ease-in;
     -moz-transition: right 0.3s ease-in;
     -o-transition: right 0.3s ease-in;
@@ -106,7 +106,7 @@ body {
     right: 0px;
 }
 .sideBarContainerReminder.right.shifted{
-    right: 30%;
+    right: 30% !important;
 }
 
 .sideBarContainer {
@@ -135,16 +135,16 @@ body {
 }
 
 .sideBarContainer.left{
-    left: -30%;
+    left: -30% !important;
 }
 .sideBarContainer.openBtn {
-    z-index: 99;
+    z-index: 99 !important;
 }
 .sideBarContainer.left.openBtn{
     left: 0;
 }
 .sideBarContainer.right{
-    right: -30%;
+    right: -30% !important;
 }
 .sideBarContainer.right.openBtn{
     right: 0;
