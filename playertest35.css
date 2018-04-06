@@ -222,7 +222,7 @@ icon {
 .volumeControl .ui-slider-horizontal.slider {
       height: 12px !important;
 
-.slider ui-slider ui-corner-all ui-slider-horizontal ui-widget ui-widget-content {
+.slider .ui-slider .ui-corner-all .ui-slider-horizontal .ui-widget .ui-widget-content {
 	    background-color: #f1f0eb !important;
 }
 
@@ -256,14 +256,14 @@ icon {
 	top: 50px !important;
 }
 	
-.timers comp currentTimeLabel display-high {
+.timers .comp .currentTimeLabel .display-high {
 	position: relative !important;
     	left: 40px !important;
     	top: 50px !important;	
 }
 	
 	
-.timers comp durationLabel display-medium .durationLabel {
+.timers .comp durationLabel .display-medium .durationLabel {
 	position: relative !important;
 	left: 700px !important;
     	top: 50px !important;	
