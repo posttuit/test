@@ -92,7 +92,7 @@ icon {
 	left: 54px !important;
     	top: -30px !important;
     	cursor: pointer;
-    	background-color: #686868;
+    	background-color: #f1f0eb !important;
     	background: rgba(104,104,104,0.6);
 }
 
@@ -202,6 +202,21 @@ icon {
 	position: absolute;
 }
 
+.volumeControl .ui-slider-horizontal .ui-slider-range-min:hover {
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    filter: alpha(opacity=100);
+    opacity: 1;
+    -webkit-box-shadow: 0px 0px 0px #f1f0eb !important;
+    box-shadow: 0px 0px 0px #f1f0eb !imoportant;
+}
+
+.volumeControl .ui-slider-horizontal .ui-slider-range-min {
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=85)";
+    filter: alpha(opacity=85);
+    opacity: 1 !important;
+    background: -webkit-linear-gradient(top,#f95741,#f95741) !important;
+}
+
 .largePlayBtn {
 	cursor: pointer;
 	position: absolute;
@@ -223,6 +238,13 @@ icon {
     	height: 110% !important;
 	width: 40px !important;
 	font-size: 14px !important;
+}
+
+.timers {
+    position: relative !important;
+    left: 40px !imoprtant;
+    top: 50px !imoprtant;
+}
 
 /* Subtitles */
 .captionsOverlay .track {opacity:1 !important;}
