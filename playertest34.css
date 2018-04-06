@@ -263,9 +263,9 @@ icon {
 }
 	
 	
-.timers comp durationLabel display-medium {
+.timers comp durationLabel display-medium .durationLabel {
 	position: relative !important;
-	left: 40px !important;
+	left: 700px !important;
     	top: 50px !important;	
 }
 	
