@@ -256,12 +256,28 @@ icon {
 	top: 50px !important;
 }
 	
+.mobileSkin .timers{
+    font-family: 'PxGrotesk' !important;
+    top: 0px;
+    font-weight: bold;
+    font-size: 1.2em;
+    text-shadow: 0px 0px 2.4px rgba(0, 0, 0, 0.12);
+}
+.mobileSkin.fullscreen .timers{
+    font-size: 1.1em;
+}
+.mobileSkin.size-tiny .timers{
+    font-size: 0.9em;
+}
+.mobileSkin .liveStatus{
+    font-family: 'Material Icons';
+}
+	
 .timers .comp .currentTimeLabel .display-high {
 	position: relative !important;
     	left: 40px !important;
     	top: 50px !important;	
 }
-	
 	
 .timers .comp durationLabel .display-medium .durationLabel {
 	position: relative !important;
@@ -269,7 +285,7 @@ icon {
     	top: 50px !important;	
 }
 	
-.durationLabel {
+.timers .durationLabel {
     left: 700px !important;
     top: 50px !important;
 }
