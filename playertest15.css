@@ -115,12 +115,12 @@ icon {
 }
 
 .mobileSkin .overlay-win, .mobileSkin .overlay-win button, .mobileSkin .overlay-win select, .mobileSkin .overlay-win textarea{
-    font-family: 'PxGrotesk';
+    font-family: 'PxGrotesk' !important;
     font-size: 1em;
 }
 
 .mobileSkin .alert-container{
-    font-family: 'PxGrotesk';
+    font-family: 'PxGrotesk' !important;
     background-color: rgba(255,255,255,0.9);
     width: 60%;
     padding-top: 20px;
@@ -132,7 +132,7 @@ icon {
 
 .mobileSkin .alert-button {
     height: 30px;
-    font-family: 'PxGrotesk;
+    font-family: 'PxGrotesk' !important;
     font-size: 14px;
     border: none;
     background: transparent;
@@ -184,14 +184,47 @@ icon {
 
 /* Spinner */
 
+@import "compass/css3" !important;
+
+$size: 20px; $spacing: $size/3;
+
+body {
+  margin: 0 auto;
+  background-color: #67D;
+}
+
 .spinner {
-  margin: 20px auto 20px auto !important;
-  position: relative !important;
-  -webkit-animation: rotate-forever 1s infinite linear !important;
-  animation: rotate-forever 1s infinite linear !important;
-  height: 30px !important;
-  width: 30px !important;
-  border: 4px solid #f95741 !important;
-  border-right-color: transparent !important;
-  border-radius: 50% !important;
+  position: absolute !important;
+  top: 50% !important;
+  left: 50%;
+  margin-top: -($size*3+$spacing*2)/2 !important;
+  margin-left: -($size*3+$spacing*2)/2 !important;
+  width: $size*3+$spacing*2 !important;
+  height: $size !important;
+
+  &:after {
+    content: "";
+    position: absolute !important;
+    left: $size+$spacing !important;
+    height: $size !important;
+    width: $size !important;
+    border-radius: $size !important;
+    background-color: rgba(255,255,255,0.5) !important;
+    box-shadow: -($size+$spacing) 0 0 0 rgba(255,255,255,1),
+                $size+$spacing 0 0 0 rgba(255,255,255,1) !important;
+    animation: alter 1s ease-in-out infinite !important;
+  }
+}
+
+@keyframes alter {
+  0%, 100% {
+    background-color: rgba(255,255,255,0.5) !important;
+    box-shadow: -($size+$spacing) 0 0 0 rgba(255,255,255,1),
+                $size+$spacing 0 0 0 rgba(255,255,255,1) !important;
+  }
+  50% {
+    background-color: rgba(255,255,255,1) !important;
+    box-shadow: 0 0 0 0 rgba(255,255,255,0.5),
+                0 0 0 0 rgba(255,255,255,0.5) !important;
+  }
 }
