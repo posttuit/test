@@ -85,8 +85,10 @@ icon {
 
 .scrubber {
     	position: relative;
-	width: 400px;
-   	height: 0.8em !important;
+	width: 400px !important;
+   	height: 10px !important;
+	margin-left: 20px !important;
+    	margin-right: 60px !imoprtant;
     	cursor: pointer;
     	background-color: #686868;
     	background: rgba(104,104,104,0.6);
