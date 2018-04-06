@@ -184,47 +184,26 @@ icon {
 
 /* Spinner */
 
-@import "compass/css3" !important;
-
-$size: 20px; $spacing: $size/3;
-
-body {
-  margin: 0 auto;
-  background-color: #67D;
-}
-
-.spinner {
-  position: absolute !important;
-  top: 50% !important;
-  left: 50%;
-  margin-top: -($size*3+$spacing*2)/2 !important;
-  margin-left: -($size*3+$spacing*2)/2 !important;
-  width: $size*3+$spacing*2 !important;
-  height: $size !important;
-
-  &:after {
-    content: "";
+.Spinner{
     position: absolute !important;
-    left: $size+$spacing !important;
-    height: $size !important;
-    width: $size !important;
-    border-radius: $size !important;
-    background-color: rgba(255,255,255,0.5) !important;
-    box-shadow: -($size+$spacing) 0 0 0 rgba(255,255,255,1),
-                $size+$spacing 0 0 0 rgba(255,255,255,1) !important;
-    animation: alter 1s ease-in-out infinite !important;
-  }
+    top: 50% !important;
+    left: 50% !important;
+    margin-top: -50px !important;
+    margin-left: -50px !important;
+    border-radius: 50% !important;
+    width: 50px !important;
+    height: 50px !important;
+    border: solid 4px rgba(255,255,255,0.7) !important;
+    background-color: transparent !important;
+    border-right-color: #00d6ff !important;
+    -webkit-animation: rotating 0.8s linear infinite !important;
+    -moz-animation: rotating 0.8s linear infinite !important;
+    animation: rotating 0.8s linear infinite !important;
 }
-
-@keyframes alter {
-  0%, 100% {
-    background-color: rgba(255,255,255,0.5) !important;
-    box-shadow: -($size+$spacing) 0 0 0 rgba(255,255,255,1),
-                $size+$spacing 0 0 0 rgba(255,255,255,1) !important;
-  }
-  50% {
-    background-color: rgba(255,255,255,1) !important;
-    box-shadow: 0 0 0 0 rgba(255,255,255,0.5),
-                0 0 0 0 rgba(255,255,255,0.5) !important;
-  }
+.mobileSkin.size-tiny .customSpinner{
+	margin-top: -44px !important;
+	margin-left: -44px !important;
+	width: 36px !important;
+	height: 36px !important;
+	border-radius: 36px !important;
 }
