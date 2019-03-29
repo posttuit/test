@@ -1,0 +1,484 @@
+@font-face
+{font-family:'PxGrotesk';
+font-style:normal;
+font-weight:400;
+src:url(https://s3.amazonaws.com/s3b1.btv.cat/recursos/tipografies/corporativa/PxGroteskRegular.eot) format("embedded-opentype"),
+url(https://s3.amazonaws.com/s3b1.btv.cat/recursos/tipografies/corporativa/PxGroteskRegular.woff) format("woff"),
+url(https://s3.amazonaws.com/s3b1.btv.cat/recursos/tipografies/corporativa/PxGroteskRegular.ttf) format("truetype"),
+url(https://s3.amazonaws.com/s3b1.btv.cat/recursos/tipografies/corporativa/PxGroteskRegular.svg) format("svg")}
+
+@font-face
+{font-family:'Material Icons';
+font-style:normal;
+font-weight:400;
+src:url(https://fonts.gstatic.com/s/materialicons/v36/flUhRq6tzZclQEJ-Vdg-IuiaDsNc.woff2) format('woff2')}
+
+@font-face
+{font-family:'FontAwesome5Brands';
+font-style:normal;
+font-weight:400;
+src:url(https://use.fontawesome.com/releases/v5.0.10/webfonts/fa-brands-400.eot);
+src:url(https://use.fontawesome.com/releases/v5.0.10/webfonts/fa-brands-400.eot?#iefix) format("embedded-opentype"),
+url(https://use.fontawesome.com/releases/v5.0.10/webfonts/fa-brands-400.woff2) format("woff2"),
+url(https://use.fontawesome.com/releases/v5.0.10/webfonts/fa-brands-400.woff) format("woff"),
+url(https://use.fontawesome.com/releases/v5.0.10/webfonts/fa-brands-400.ttf) format("truetype"),
+url(https://use.fontawesome.com/releases/v5.0.10/webfonts/fa-brands-400.svg#fontawesome) format("svg")}
+
+@font-face
+{font-family:'FontAwesome5Free';
+font-style:normal;font-weight:400;
+src:url(https://use.fontawesome.com/releases/v5.0.10/webfonts/fa-regular-400.eot);
+src:url(https://use.fontawesome.com/releases/v5.0.10/webfonts/fa-regular-400.eot?#iefix) format("embedded-opentype"),
+url(https://use.fontawesome.com/releases/v5.0.10/webfonts/fa-regular-400.woff2) format("woff2"),
+url(https://use.fontawesome.com/releases/v5.0.10/webfonts/fa-regular-400.woff) format("woff"),
+url(https://use.fontawesome.com/releases/v5.0.10/webfonts/fa-regular-400.ttf) format("truetype"),
+url(https://use.fontawesome.com/releases/v5.0.10/webfonts/fa-regular-400.svg#fontawesome) format("svg")}
+
+body
+{font-family:'PxGrotesk' !important;
+letter-spacing:0 !important}
+
+.mobileSkin .largePlayBtn
+{padding:18px 23px 22px 19px !important}
+
+.mobileSkin .largePlayBtn.icon-play::before
+{content:"\E037"}
+
+.mobileSkin .largePlayBtn.icon-pause::before
+{content:"\E034"}
+
+.controlBarContainer
+{z-index:200}
+
+.controlBarContainer .controlsContainer
+{background-image:none !important;
+  background-color:rgba(42,48,52,0.6) !important;
+  height:84px !important;border:none !important;
+  -webkit-box-shadow:none !important;-moz-box-shadow:none !important;
+  box-shadow:none !important}
+
+.controlBarContainer .controlsContainer .back-to-live .icon-on-air,
+.controlBarContainer .controlsContainer .back-to-live .icon-off-air,
+.controlBarContainer .controlsContainer .back-to-live .back-to-live-text
+{opacity:0}
+
+.scrubber
+{left:57px !important;
+  top:39px !important;
+  height:13px !important;
+  width:calc(100% - 306px);
+  background-color:rgba(241,240,235,0.1) !important}
+
+.scrubber .buffered
+{background-color:rgba(241,240,235,0.4) !important;
+  opacity:1 !important}
+
+.scrubber .watched
+{background-color:#F95741 !important}
+
+.scrubber .handle-wrapper
+{margin:0 !important}
+
+.scrubber .playHead
+{padding:0 !important;position:absolute;
+  border-radius:0 !important;
+  width:7px !important;
+  height:30px !important;
+  margin-left:0 !important;
+  top:-43px !important;
+  display:none !important;
+  background:transparent !important;
+  background-color:#F1F0EB !important;
+  -webkit-box-shadow:none !important;
+  box-shadow:none !important}
+
+.topBarContainer
+{background-color:transparent !important;
+  padding:29px 57px 0 !important;
+  height:63px !important}
+
+.topBarContainer .titleLabel
+{font-size:1.4em !important;
+  color:#F1F0EB;display:none !important}
+
+.topBarContainer.hover
+{top:-65px !important}
+
+.topBarContainer.open
+{top:0 !important}
+
+.volumeControl
+{position:absolute !important;right:57px;
+  width:166px !important;
+  height:1px !important}
+
+.volumeControl .icon-volume-high,.volumeControl .icon-volume-low,.volumeControl .icon-volume-mute
+{height:35px !important;
+  display:block !important;
+  position:absolute}
+
+.volumeControl .icon-volume-high
+{left:-6px}
+
+.volumeControl .icon-volume-high::before
+{content:"\E050"}
+
+.volumeControl .icon-volume-low
+{left:-8px}
+
+.volumeControl .icon-volume-low::before
+{content:"\E04D"}
+
+.volumeControl .icon-volume-mute
+{left:-10px}
+
+.volumeControl .icon-volume-mute::before
+{content:"\E04E"}
+
+.volumeControl .ui-slider-horizontal
+{width:100% !important;
+  top:26px !important}
+
+.volumeControl .ui-slider-horizontal .ui-slider-range-min
+{-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)" !important;
+filter:alpha(opacity=100) !important;opacity:1 !important;
+height:13px !important;background:transparent !important;
+background-color:#F95741 !important;
+-webkit-box-shadow:none !important;
+box-shadow:none !important}
+
+.volumeControl .ui-slider-horizontal.slider
+{height:13px !important;
+  margin:0 !important;
+  background-color:rgba(241,240,235,0.5) !important}
+
+.sliderPreview
+{margin-top:-50px !important;
+  border:2px solid #F1F0EB !important;
+  border-radius:0 !important;
+  background-size:15300px 153% !important;
+  width:153px !important;
+  height:85px !important}
+
+.sliderPreview .sliderPreviewTime
+{font-family:'PxGrotesk';
+color:#F1F0EB !important;
+left:65px !important}
+
+.sliderPreview .arrow
+{left:70px !important}
+
+.largePlayBtn
+{font-family:'Material Icons' !important;
+font-size:72px !important;
+color:#F1F0EB !important;
+background-color:#F95741 !important;
+border-radius:0 !important;
+width:37px !important;
+height:37px !important;
+margin:-37px 0 0 -37px !important;
+padding:3px 38px 37px 2px !important;
+outline:none !important}
+
+.largePlayBtn.icon-play::before
+{content:"\E037"}
+
+.largePlayBtn.icon-pause::before
+{content:"\E034"}
+
+.btn
+{font-family:'Material Icons' !important;
+color:#F1F0EB !important;
+font-size:24px !important;
+width:30px !important;
+height:1px !important;
+outline:none !important;
+text-shadow:none !important;
+margin-top:34px !important;
+padding-top:13px !important;
+height:35px !important}
+
+.btn.playPauseBtn
+{display:none !important}
+
+.btn.share::before
+{content:"\E80D" !important}
+
+.btn.chromecast::before
+{content:"\E307" !important}
+
+.btn.fullScreenBtn
+{margin-right:51px !important;
+  padding-top:10px !important;
+  font-size:31px !important}
+
+.btn.fullScreenBtn.icon-expand::before
+{content:"\E5D0"}
+
+.btn.fullScreenBtn.icon-contract::before
+{content:"\E5D1"}
+
+.btn.icon-cog::before
+{content:"\E8B8" !important}
+
+.btn.icon-cc::before
+{content:"\E048" !important}
+
+.btn.icon-related
+{display:none !important}
+
+.btn.icon-download::before
+{content:"\E149" !important}
+
+.ui-tooltip
+{padding:4px 7px !important;
+  background:transparent !important;
+  background-color:#2A3034 !important}
+
+.ui-tooltip .arrow
+{display:none;top:-200px !important}
+
+.ui-tooltip.ui-corner-all.ui-widget-shadow.ui-widget.ui-widget-content
+{font-family:'PxGrotesk' !important;
+font-size:12px !important;
+color:#F1F0EB !important;
+opacity:1 !important}
+
+.timers
+{font-size:14px !important;
+  top:41px !important}
+
+.timers.comp
+{color:#F1F0EB !important;
+  margin:0 !important;
+  padding:0 !important}
+
+.timers.comp.currentTimeLabel
+{left:55px !important}
+
+.timers.comp.durationLabel
+{position:absolute;
+  right:248px !important;
+  top:55px !important;
+  text-align:right !important}
+
+.captionsOverlay .track
+{opacity:1 !important}
+
+.captionsOverlay .track .ttmlStyled
+{background-color:rgba(42,48,52,0.9) !important;
+  font-family:'PxGrotesk' !important;
+  font-size:1.4em !important;
+  padding:9px 14px !important;
+  display:inline-block !important;
+  color:#F1F0EB !important}
+
+.captionsOverlay .track .ttmlStyled span
+{padding:0 5px !important}
+
+.semiTransparentBkg
+{background:transparent !important;
+  background-color:rgba(42,48,52,0.8) !important}
+
+.screen.related
+{background:transparent !important;
+  background-color:#2A3034 !important}
+
+.screen.related .icon-close
+{right:57px !important;
+  top:38px !important}
+
+.icon-close
+{outline:none !important;
+  right:57px !important;
+  top:6px !important;
+  text-shadow:none !important}
+
+.icon-border.PIE a
+{text-shadow:none !important}
+#kVideoTarget
+img{-webkit-filter:blur(0);
+  -moz-filter:blur(0);
+  -o-filter:blur(0);
+  -ms-filter:blur(0);
+  filter:blur(0)}
+
+.share .shareembed-input.embed-input,.share .shareembed-input.share-input
+{border:1px solid #F1F0EB !important;
+  font-family:'PxGrotesk' !important;
+  color:#F1F0EB;
+  height:38px !important;
+  width:320px;
+  background-color:transparent !important}
+
+.share .share-input
+{background:url("https://s3.amazonaws.com/s3b1.btv.cat/Kaltura/img/icon-link.png") no-repeat 7px center !important;
+background-size:27px !important}
+
+.share .embed-input
+{background:url("https://s3.amazonaws.com/s3b1.btv.cat/Kaltura/img/icon-embed.png") no-repeat 7px center !important;background-size:27px !important}
+
+.screen.related
+{margin:0 !important;
+  padding:0 !important}
+
+.screen.related .screen-content,.screen.related .screen-content.fullscreen
+{margin:0 !important;
+  padding:0 !important;
+  width:calc(100% - 114px) !important;
+  margin-left:57px !important;
+  height:100% !important}
+
+.screen.related .screen-content .tmpl,.screen.related .screen-content.fullscreen .tmpl
+{display:block;height:100%}
+
+.screen.related .screen-content .tmpl .relatedContainer,.screen.related .screen-content.fullscreen .tmpl .relatedContainer
+{margin-top:16% !important;
+  height:100% !important}
+
+.screen.related .screen-content .tmpl .relatedContainer .item.featured,.screen.related .screen-content.fullscreen .tmpl .relatedContainer .item.featured,.screen.related .screen-content .tmpl .relatedContainer .item.small,.screen.related .screen-content.fullscreen .tmpl .relatedContainer .item.small
+{width:25% !important;
+  height:25% !important}
+
+.screen.related .screen-content .tmpl .relatedContainer .item .item-inner,.screen.related .screen-content.fullscreen .tmpl .relatedContainer .item .item-inner
+{overflow:visible !important;
+  color:transparent !important}
+
+.screen.related .screen-content .tmpl .relatedContainer .item .item-inner img,.screen.related .screen-content.fullscreen .tmpl .relatedContainer .item .item-inner
+img{display:block;
+  width:100% !important;
+  height:auto !important;
+  margin-top:0 !important}
+
+.screen.related .screen-content .tmpl .relatedContainer .item .item-inner .title,.screen.related .screen-content.fullscreen .tmpl .relatedContainer .item .item-inner .title
+{display:block !important;
+  top:98% !important;
+  color:#F1F0EB !important;
+  font-family:'PxGrotesk' !important;
+  background-color:transparent !important;
+  font-size:18px !important;
+  height:auto !important;
+  word-break:normal !important;
+  padding:0 !important}
+
+.share-icons-scroller
+{height:32px !important}
+
+.share-icons-scroller .share-icons-container
+{height:32px !important;
+  overflow:visible !important;padding:0 30px}
+
+.share-icons-scroller .share-icons-container .icon-border
+{height:32px !important;
+  padding:0 !important;
+  opacity:1 !important;
+  border-radius:0 !important;
+  font-size:32px !important}
+
+.share-icons-scroller .share-icons-container .share-network::before
+{color:#F1F0EB !important;
+  font-family:'FontAwesome5Brands' !important}
+
+.share-icons-scroller .share-icons-container .share-network.icon-share-twitter::before
+{content:'\F099' !important}
+
+.share-icons-scroller .share-icons-container .share-network.icon-share-facebook::before
+{content:'\f39e' !important}
+
+.share-icons-scroller .share-icons-container .share-network.icon-share-email::before
+{font-family:'FontAwesome5Free' !important;
+content:'\f0e0' !important}
+
+.share-icons-scroller .share-icons-container .share-network.icon-share-linkedin::before
+{content:'\f08c' !important}
+
+.share-icons-scroller .share-icons-container .share-network.icon-share-google::before
+{content:'\f2b3' !important}
+
+.share-icons-scroller .share-icons-container .share-network.icon-share-instagram::before
+{content:'\f16d' !important}
+
+.share-icons-scroller .share-icons-container .share-network.icon-share-whatsapp::before
+{content:'\f232' !important}
+
+body
+{background-color:#2A3034 !important}
+
+.videoHolder
+{background-color:#2A3034 !important;
+  margin-top:2% !important;
+  height:100% !important}
+
+.videoHolder .videoDisplay
+{opacity:0 !important}
+
+.videoHolder .screen.share
+{padding:0 !important}
+
+.videoHolder .screen.share .screen-content
+{padding:0 !important}
+
+.videoHolder .screen.share .screen-content .icon-close
+{top:1px !important}
+
+.videoHolder .screen.share .screen-content input
+{height:24px !important;
+  margin-bottom:5px !important}
+
+.videoHolder .screen.share .screen-content .embed-input
+{margin-bottom:30px !important}
+
+.videoHolder .screen.share .share-input-container
+{height:35px !important}
+
+.videoHolder .screen.semiTransparentBkg{z-index:400}.controlBarContainer
+{pointer-events:none !important}
+
+.controlBarContainer .scrubber
+{pointer-events:all !important}
+
+.controlBarContainer .controlsContainer
+{background-color:transparent !important}
+
+.controlBarContainer .controlsContainer .btn
+{pointer-events:all !important}
+
+.volumeControl
+{pointer-events:all !important}
+
+.comp.largePlayBtn
+{display:block !important;top:calc((100% - 94px) / 2) !important}
+
+.topBarContainer
+{pointer-events:none;
+  position:absolute !important;
+  height:89px !important;
+  top:auto !important;
+  bottom:1px !important;
+  padding:0 57px 0 !important;
+  width:50% !important}
+
+.topBarContainer .titleLabel
+{font-size:20px !important;
+  color:#F95741 !important;
+  padding:0 !important;
+  width:100% !important;
+  overflow:hidden !important}
+
+.topBarContainer .titleLabel.pull-left
+{white-space:nowrap !important;
+  text-overflow:ellipsis !important}
+
+.topBarContainer.hover
+{top:auto !important;
+  bottom:1px !important}
+
+.topBarContainer.open
+{top:auto !important;
+  bottom:1px !important}
+
+.sliderPreview
+{display:none !important}
+
+.btn.share
+{margin-right:51px !important}
